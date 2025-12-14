@@ -80,6 +80,7 @@ class ReelsMaker(BaseEngine):
         return sentence.replace('"', "")
 
     async def generate_search_terms(self, script, max_hashtags: int = 5):
+        """Legacy method - generates generic search terms from entire script"""
         logger.debug("Generating search terms for script...")
         response = await self.prompt_generator.generate_stock_image_keywords(script)
         tags = [tag.replace("#", "") for tag in response.sentences]
@@ -89,6 +90,26 @@ class ReelsMaker(BaseEngine):
 
         logger.info(f"Generated search terms: {tags}")
         return tags
+
+    async def generate_sequential_search_terms(self, sentences: list[str]) -> list[str]:
+        """
+        Generates one English search keyword per sentence for better video matching.
+
+        This method produces keywords that are:
+        - In English (for best API results)
+        - Concrete and visual (what you'd actually see)
+        - Sequential (each keyword matches its corresponding sentence)
+
+        Args:
+            sentences: List of script sentences
+
+        Returns:
+            List of English keywords, one per sentence
+        """
+        logger.debug(f"Generating sequential search terms for {len(sentences)} sentences...")
+        keywords = await self.prompt_generator.generate_sequential_video_keywords(sentences)
+        logger.info(f"Generated sequential keywords: {keywords}")
+        return keywords
 
     async def start(self, progress_callback=None) -> StartResponse:
         """
@@ -166,7 +187,7 @@ class ReelsMaker(BaseEngine):
         videos_needed = math.ceil(video_duration / max_clip_duration)
 
         # ============================================================
-        # FASE 4: Buscar/baixar vídeos
+        # FASE 4: Buscar/baixar vídeos (com keywords sequenciais em inglês)
         # ============================================================
         report(f"🎬 Fase 3/5: Buscando {videos_needed} vídeos no Pexels...")
         video_paths = []
@@ -174,11 +195,9 @@ class ReelsMaker(BaseEngine):
             report("Usando vídeos enviados pelo usuário...")
             video_paths = self.config.video_paths
         else:
-            # Gerar mais search terms para ter mais variedade
-            search_terms = await self.generate_search_terms(
-                script=script, max_hashtags=min(videos_needed, 20)
-            )
-            report(f"   Termos de busca: {', '.join(search_terms[:5])}...")
+            # Gerar keywords sequenciais (um por sentença, em inglês, visuais)
+            search_terms = await self.generate_sequential_search_terms(sentences)
+            report(f"   Keywords (EN): {', '.join(search_terms[:5])}{'...' if len(search_terms) > 5 else ''}")
 
             # Buscar vídeos únicos suficientes
             video_paths = await self.video_generator.get_unique_videos(

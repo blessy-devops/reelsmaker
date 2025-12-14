@@ -23,6 +23,14 @@ class HashtagsSchema(BaseModel):
     sentences: list[str] = Field(description="List of search terms for the sentence")
 
 
+class SequentialVideoKeywordsSchema(BaseModel):
+    """Sequential video keywords for each sentence"""
+
+    keywords: list[str] = Field(
+        description="List of English video search keywords, one per input sentence"
+    )
+
+
 class ImageLLMResponse(BaseModel):
     """the image prompt response"""
 
@@ -263,7 +271,7 @@ IMPORTANT REQUIREMENTS:
         })
 
     async def generate_stock_image_keywords(self, sentence: str) -> HashtagsSchema:
-        """generates search keywords from a sentence"""
+        """generates search keywords from a sentence (legacy method)"""
 
         system_template = """
 generate pexels.com search terms for the sentence below, the search keywords will be used to query an API:
@@ -287,6 +295,98 @@ Timing and letting go, Weakness and strength, Focus and hustle, Resonate with li
 
         logger.debug(f"Generating sentence from prompt: {sentence}")
         return await chain.ainvoke({"sentence": sentence})
+
+    async def generate_sequential_video_keywords(
+        self, sentences: list[str]
+    ) -> list[str]:
+        """
+        Generates one English video search keyword per sentence.
+
+        Keywords are optimized for stock video APIs (Pexels, Pixabay):
+        - Always in English (best API results)
+        - Concrete and visual (what you'd actually see)
+        - Sequential narrative flow (each keyword matches its sentence)
+
+        Args:
+            sentences: List of script sentences (can be in any language)
+
+        Returns:
+            List of English keywords, one per sentence
+        """
+
+        system_template = """You are a stock video search expert. Your task is to generate ONE English search keyword for EACH sentence provided.
+
+=== CRITICAL RULES ===
+
+1. OUTPUT IN ENGLISH ONLY - Stock video APIs work best with English keywords
+2. ONE KEYWORD PER SENTENCE - You must return exactly {sentence_count} keywords
+3. CONCRETE & VISUAL - Keywords must describe something you can actually SEE in a video
+4. KEEP IT SIMPLE - 1-3 words max per keyword
+
+=== WHAT MAKES A GOOD KEYWORD ===
+
+GOOD (concrete, visual):
+- "frog pond" (you can see a frog)
+- "person walking city" (you can see a person walking)
+- "sunset beach" (you can see a sunset)
+- "businessman thinking" (you can see a person)
+- "rain window" (you can see rain on a window)
+
+BAD (abstract, won't find videos):
+- "success" (too abstract)
+- "letting go" (emotional concept, not visual)
+- "resilience" (can't see this)
+- "timing" (not visual)
+- "inner peace" (not visual)
+
+=== TRANSLATION EXAMPLES ===
+
+If sentence is in Portuguese about "sapo" → keyword: "frog"
+If sentence is about "sucesso" → keyword: "businessman celebration" (visual representation)
+If sentence is about "medo" → keyword: "person afraid" or "dark room" (visual representation)
+
+=== INPUT SENTENCES ===
+
+{sentences}
+
+{format_instructions}
+
+Remember: Return EXACTLY {sentence_count} keywords, in the SAME ORDER as the sentences."""
+
+        parser = PydanticOutputParser(pydantic_object=SequentialVideoKeywordsSchema)
+
+        # Format sentences with numbers for clarity
+        formatted_sentences = "\n".join(
+            f"{i+1}. {s}" for i, s in enumerate(sentences)
+        )
+
+        prompt = ChatPromptTemplate.from_messages(
+            messages=[("system", system_template)]
+        )
+        prompt = prompt.partial(
+            format_instructions=parser.get_format_instructions(),
+            sentence_count=len(sentences),
+        )
+
+        chain = prompt | self.model | parser
+
+        logger.debug(f"Generating {len(sentences)} sequential video keywords")
+        result = await chain.ainvoke({"sentences": formatted_sentences})
+
+        # Validate count matches
+        if len(result.keywords) != len(sentences):
+            logger.warning(
+                f"Keyword count mismatch: expected {len(sentences)}, got {len(result.keywords)}. "
+                "Padding or truncating..."
+            )
+            # Pad with generic keywords if too few
+            while len(result.keywords) < len(sentences):
+                result.keywords.append("nature landscape")
+            # Truncate if too many
+            result.keywords = result.keywords[:len(sentences)]
+
+        logger.info(f"Generated sequential keywords: {result.keywords}")
+        return result.keywords
 
     @retry(stop=stop_after_attempt(3), wait=wait_fixed(5), after=log_attempt_number) # type: ignore
     async def sentences_to_images(
