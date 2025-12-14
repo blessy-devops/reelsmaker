@@ -1,0 +1,27 @@
+# Transcrição - Vídeo 20
+
+**Arquivo**: video_20.mp4
+**Duração**: 1:08
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+One day Albert Einstein was teaching a class and wrote on the board
+9 times 1 equals 9
+9 times 2 equals 18
+and he continued all the way up to 9 times 10 equals 91
+The class broke out in laughter because Einstein made a mistake
+The correct answer to 9 times 10 is obviously 90, not 91
+and the students began to make fun of him
+Einstein waited for everyone to be silent and then said
+despite the fact that I analyzed 9 problems correctly
+no one congratulated me but when I made one mistake
+everyone started laughing this means that even if a person is successful
+society will notice even the slightest mistake
+so today's reminder to you is that mistakes are a part of the process
+as Einstein once said the only person who never makes a mistake
+is someone who does nothing
+if you're not following biology you're probably never going to see us again
+if you are then congratulations you're growing every day

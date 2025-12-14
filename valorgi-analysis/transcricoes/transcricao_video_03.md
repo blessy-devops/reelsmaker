@@ -1,0 +1,21 @@
+# Transcrição - Vídeo 03
+
+**Arquivo**: video_03.mp4
+**Duração**: 0:54
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+What happens if a frog is suddenly put into a pot of boiling water, it will immediately
+decide, this is uncomfortable, I need to get out of here fast, and jump right out.
+But what if you take that same frog, put it in a pot of cold water, place it on the stove,
+and gradually heat it up, the frog will relax.
+It will notice that it's getting warmer, but it will think a little extra warmth won't
+hurt.
+Eventually, it ends up getting boiled.
+Many things in life accumulate gradually, debts, excess weight, and poor health.
+Don't underestimate the little things.
+If you're not following the Velorgy Project, you're probably never going to see us again.
+If you're then congratulations, you're growing every day.

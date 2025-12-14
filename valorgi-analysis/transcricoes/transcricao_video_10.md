@@ -1,0 +1,21 @@
+# Transcrição - Vídeo 10
+
+**Arquivo**: video_10.mp4
+**Duração**: 1:13
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+Signs you're dating a high-value woman, one, supportive. She encourages your goals and dreams.
+Two, trust worthy and loyal. You can trust her with your secrets. She's committed to the
+relationship. Three, communication. She talks openly and honestly with you. Four, respect. She
+respects your boundaries and expects the same. Five, kindness. She's genuinely kind to others,
+not just to impress you. Six, honesty. She's truthful even when it's difficult. Seven,
+empathy. She understands and cares about your feelings. Eight, resilience. She handles challenges
+with grace. Nine, positive attitude and sense of humor. She focuses on the good in life. She can
+make you laugh. Ten, responsible. She takes care of her obligations. Eleven, respectful of differences.
+She respects your opinions even if they differ. Twelve, appreciative. She shows gratitude for your
+efforts. If you're not following Valergy, you're probably never going to see us again. If you are
+than congratulations, you're growing every day.

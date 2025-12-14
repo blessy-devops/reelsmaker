@@ -1,0 +1,21 @@
+# Transcrição - Vídeo 04
+
+**Arquivo**: video_04.mp4
+**Duração**: 1:11
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+five signs that she is a wife material. Number one, she advises you not to waste your money,
+not even on her, but to invest it into something that would guarantee the both of you a future.
+Number two, she wants a peaceful relationship. She doesn't fancy nagging you,
+as well as she doesn't fancy you playing games with her. Number three, she considers your loss her
+and your failure, her failure. She is deeply sad when you fail at your goals. Number four,
+she stays with you in any situation both bad or good. Anybody can love and treasure you
+when things are fine. Any woman can help you spend your money when you have it,
+but the woman who sticks with you when you don't have any is good. Number five,
+you can cry in front of her and be confident that she won't think less of you ever.
+If you're not following Velorji, you're probably never going to see us again. If you are,
+then congratulations, you're growing every day.

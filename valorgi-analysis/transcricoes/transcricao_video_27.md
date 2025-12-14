@@ -1,0 +1,25 @@
+# Transcrição - Vídeo 27
+
+**Arquivo**: video_27.mp4
+**Duração**: 1:21
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+Did you know that octopus's die after giving birth to their babies?
+These intelligent animals only breed once in their lifetime.
+After mating, a female finds a rocky den and lays more than 100,000 eggs.
+It takes six to eight months for them to fully develop.
+She carefully positions her 100,000 eggs along the rocky ceiling of her den.
+By this time, she has already lost most of her body weight and all her rich red color.
+She hasn't eaten or left her den for the past six months, and she is slowly dying.
+During the last few months, she must force water over her eggs with a siphon,
+providing them with oxygen and keeping them free of harmful bacteria and algae.
+After ten months of struggle, she gives life to thousands of young octopuses,
+which swim to the surface, carried by the cold water currents.
+This shows the incredible wisdom of God's design, where everything in creation has a purpose.
+True sacrifice means giving everything for the future, trusting that our actions will bring
+new life and opportunities for others. If you're not following Valergy, you're probably never
+going to see us again. If you are, then congratulations. You're growing every day.

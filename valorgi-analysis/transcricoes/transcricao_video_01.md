@@ -1,0 +1,29 @@
+# Transcrição - Vídeo 01
+
+**Arquivo**: video_01.mp4
+**Duração**: 1:03
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+The man doesn't know that there is a snake underneath.
+The woman doesn't know that there is a stone crushing the man.
+The woman thinks, I am going to fall,
+and I can't climb because the snake is going to bite me.
+Why can't the man use a little more strength and pull me up?
+The man thinks, I am in so much pain,
+yet I'm still pulling you as much as I can.
+Why don't you try and climb a little harder?
+The moral is, you can't see the pressure the other person is under,
+and the other person can't see the pain you're in.
+This is life.
+Whether it's with work, family, feelings, or friends,
+we should try to understand each other,
+learn to think differently,
+perhaps more clearly, and communicate better.
+A little thought in patience goes a long way.
+If you're not following the Valorgy Project,
+you're probably never going to see us again.
+If you're then congratulations, you're growing every day.

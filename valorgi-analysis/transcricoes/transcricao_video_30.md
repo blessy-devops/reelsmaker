@@ -1,0 +1,31 @@
+# Transcrição - Vídeo 30
+
+**Arquivo**: video_30.mp4
+**Duração**: 1:07
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+When God wanted to create fish, he spoke to the sea.
+When God wanted to create trees, he spoke to the earth.
+But when God wanted to create man, he turned to himself.
+Then God said, let us make man in our image and in our likeness.
+If you take a fish out of water, it will die.
+And when you remove a tree from soil, it will also die.
+Likewise, when man is disconnected from God, he dies.
+God is our natural environment.
+We were created to live in his presence,
+because it is only in him that life exists.
+Let us stay connected to God.
+Let us remember that water without fish is still water.
+But fish without water is nothing.
+The soil without a tree is still soil.
+But the tree without soil is nothing.
+God without man is still God.
+But man without God is nothing.
+We have content that helps you become 1% better each day.
+If you're interested, just take a look.
+Have a good life, my friend.
+Hope to see you again.

@@ -1,0 +1,34 @@
+# Transcrição - Vídeo 21
+
+**Arquivo**: video_21.mp4
+**Duração**: 1:06
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+Japan is living in the future and here's why.
+Smart public toilets.
+Japanese toilets are a marvel of technology.
+They feature heated seats, self-cleaning systems,
+and even slots to sanitize your phone.
+Hygiene has never been this futuristic.
+Cool police uniforms.
+Police in Japan wear uniforms with built-in fans to stay cool
+while managing traffic in the heat.
+Innovation meets comfort on the streets.
+Juice on the go bottles.
+Japan's portable bottles can make fresh juice anywhere.
+Just add fruit and it's like carrying your own personal juice bar.
+Futuristic grocery carts.
+In Japan, shopping carts double as payment systems.
+Load money, scan items as you shop and see your total instantly.
+A quick cart scan at checkout and you're done.
+No lines, no waiting.
+Japan's innovation is on another level,
+which one amazed you the most.
+If you're not following Valorgy,
+you're probably never going to see us again.
+If you are then congratulations,
+you're growing every day.

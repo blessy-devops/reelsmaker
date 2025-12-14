@@ -1,0 +1,20 @@
+# Transcrição - Vídeo 26
+
+**Arquivo**: video_26.mp4
+**Duração**: 1:12
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+We're all going to die one day. In 100 years, none of this will matter. The things we stress
+about today will be forgotten. Stop stressing about minor inconveniences and don't let small
+setbacks ruin your day. Your car breaks down. It's just a temporary problem. You're late for a
+meeting. Life goes on. We often worry about things that won't matter in the long run. A bad day at
+work, an argument with a friend, a missed deadline. These are all fleeting moments. Life is far too
+short for unnecessary worries. Focus on what truly matters. Cherish your loved ones. Follow Jesus
+and live your life to the fullest. Don't get caught up in material possessions. Remember
+eternity. Take risks and embrace opportunities. Appreciate the simple joys in life. And remember,
+we're all just passing through on this earth. We have content that helps you become one percent
+better each day. If you're willing, just take a look. Have a good life, my friend. Hope to see you again.

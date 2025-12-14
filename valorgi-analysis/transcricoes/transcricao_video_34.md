@@ -1,0 +1,19 @@
+# Transcrição - Vídeo 34
+
+**Arquivo**: video_34.mp4
+**Duração**: 1:06
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+This girl dipped her hand into the same kind of water that sank the Titanic and lasted only 40 seconds.
+It turns out that the Titanic Museum, located in Missouri, USA, has a chilling exhibit where visitors can experience what the passengers felt that night.
+The water is kept at the exact same temperature it was during the sinking, minus two degrees Celsius, cold enough to cause hypothermia in just minutes.
+That's what claimed the lives of over 1,500 people who felt that cold themselves that morning.
+The museum is famous for recreating the Titanic's interior in full scale, along with several original artifacts, including the icy water exhibit.
+Most people can't even keep their hands in it for 20 seconds.
+This museum makes you truly reflect on the courage and desperation those people experienced.
+If you're not following Valergy, you're probably never going to see us again.
+If you are, then congratulations. You're learning something new every day.

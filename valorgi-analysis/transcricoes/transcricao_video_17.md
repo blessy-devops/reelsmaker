@@ -1,0 +1,20 @@
+# Transcrição - Vídeo 17
+
+**Arquivo**: video_17.mp4
+**Duração**: 0:54
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+In 1951, a man named William Alby invented a type of tire that could easily move on any surface.
+Even if these tires are installed on a truck weighing several thousand kilograms
+and driven over a person, that person would remain unharmed.
+This is because due to the low-pressure tires, the vehicle's entire weight is distributed over a
+large area so the person underneath the tire remains unharmed.
+These low-pressure tires are so remarkable that only a force of two kilograms is exerted at each point.
+They were primarily invented to move on soft and weak surfaces like snow,
+and they are also known today as roligant tires.
+If you're not following Valergy, you're probably never going to see us again.
+If you are, then congratulations. You're growing every day.

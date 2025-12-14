@@ -1,0 +1,30 @@
+# Transcrição - Vídeo 24
+
+**Arquivo**: video_24.mp4
+**Duração**: 1:08
+**Data de transcrição**: 2025-12-13
+
+---
+
+## Transcrição Completa
+
+Have you ever wondered what would happen if you trusted God completely?
+George Miller did just that.
+He opened orphanages for over 10,000 children in England,
+but here's the amazing part.
+He never asked anyone for money.
+He prayed, only prayed, and trusted God to provide.
+One morning there was no food for the children.
+Mueller gathered them at the table and began to pray,
+thanking God for the meal that wasn't there yet.
+Suddenly there was a knock at the door.
+A local baker stood outside with fresh bread.
+He said, I couldn't sleep last night.
+I felt like God wanted me to bake this for you.
+As if that wasn't enough, moments later a milk cart broke down
+right in front of the orphanage, giving them all the milk they needed.
+George Miller's life was a living testimony of God's provision.
+He proved that when you trust in God fully, miracles happen.
+What will you trust God for today?
+We post interesting and instructive stories.
+Follow us so you don't lose track of our account.
